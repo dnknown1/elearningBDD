@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="10" time="127.038148">
+    <testcase classname="Elearning registration" name="invalid user regestration" time="14.475561">
+        <system-out><![CDATA[Given user is on homepage...................................................passed
+When user clicks on sign up link............................................passed
+And user fills redundant details "Ami" "Learner2" "bca@xyz.com" "acbad" "pass123" "pass123".passed
+And user clicks on Register.................................................passed
+Then user presented with error validation messege...........................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Elearning registration" name="valid user regestration" time="9.069762">
+        <system-out><![CDATA[Given user is on homepage...................................................passed
+When user clicks on sign up link............................................passed
+And user fills unique details "A7Xn" "Learnor" "new@xyz.com" "A7Xn" "pass123" "pass123".passed
+And user clicks on Register.................................................passed
+Then user presented with profile "A7Xn Learnor" welcome messege.............passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Login" name="user tries invalid login" time="6.213597">
+        <system-out><![CDATA[Given user is on homepage...................................................passed
+When user provides invalid credentials "abcde" "pass12".....................passed
+And user clicks on login button.............................................passed
+Then validation messege appears.............................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Login" name="user tries invalid login 2" time="8.083225">
+        <system-out><![CDATA[Given user is on homepage...................................................passed
+When user provides invalid credentials "abcfe" "pass123"....................passed
+And user clicks on login button.............................................passed
+Then validation messege appears.............................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Login" name="user tries invalid login 3" time="9.958366">
+        <system-out><![CDATA[Given user is on homepage...................................................passed
+When user provides invalid credentials "abs" "a123".........................passed
+And user clicks on login button.............................................passed
+Then validation messege appears.............................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Login" name="user tries valid login" time="8.586229">
+        <system-out><![CDATA[Given user is on homepage...................................................passed
+When user provides valid credentials "new4" "pass123".......................passed
+And user clicks on login button.............................................passed
+Then user navigates to profile "New Learner4" homepage......................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Login" name="user tries valid login 2" time="12.463138">
+        <system-out><![CDATA[Given user is on homepage...................................................passed
+When user provides valid credentials "dbly96" "pass123".....................passed
+And user clicks on login button.............................................passed
+Then user navigates to profile "Debalaya Bodhak" homepage...................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Login" name="user tries valid login 3" time="11.05173">
+        <system-out><![CDATA[Given user is on homepage...................................................passed
+When user provides valid credentials "neo" "pass123"........................passed
+And user clicks on login button.............................................passed
+Then user navigates to profile "Neo Learner" homepage.......................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Compose mail" name="verify blank mail can be sent" time="24.945167">
+        <system-out><![CDATA[Given user is at profile page...............................................passed
+When user clicks on profile menu............................................passed
+And user clicks on inbox option.............................................passed
+And user clicks on compose icon.............................................passed
+And user inputs initials "amit" and selects recipient "amit luthra".........passed
+And user inputs subject "Test mail new test"................................passed
+And user clicks on send mail................................................passed
+Then mail sent successfully.................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Compose mail" name="verify blank mail can be sent 2" time="22.191373">
+        <system-out><![CDATA[Given user is at profile page...............................................passed
+When user clicks on profile menu............................................passed
+And user clicks on inbox option.............................................passed
+And user clicks on compose icon.............................................passed
+And user inputs initials "ami" and selects recipient "amit xyz".............passed
+And user inputs subject "Test mail new test"................................passed
+And user clicks on send mail................................................passed
+Then mail sent successfully.................................................passed
+]]></system-out>
+    </testcase>
+</testsuite>

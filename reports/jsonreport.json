@@ -1,0 +1,1336 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 5,
+        "name": "Trying to register",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3760140000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user is on homepage",
+            "match": {
+              "location": "Login.user_is_on_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5596133600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user clicks on sign up link",
+            "match": {
+              "location": "Register.user_clicks_on_sign_up_link()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-06-25T13:21:01.841Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2577291600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "UseChromeAutomator.setup()"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "invalid user regestration",
+        "description": "",
+        "id": "elearning-registration;invalid-user-regestration;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 100994700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "UseChromeAutomator.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 884986700,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user fills redundant details \"Ami\" \"Learner2\" \"bca@xyz.com\" \"acbad\" \"pass123\" \"pass123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Ami\"",
+                  "offset": 29
+                },
+                {
+                  "val": "\"Learner2\"",
+                  "offset": 35
+                },
+                {
+                  "val": "\"bca@xyz.com\"",
+                  "offset": 46
+                },
+                {
+                  "val": "\"acbad\"",
+                  "offset": 60
+                },
+                {
+                  "val": "\"pass123\"",
+                  "offset": 68
+                },
+                {
+                  "val": "\"pass123\"",
+                  "offset": 78
+                }
+              ],
+              "location": "Register.user_fills_redundant_details(String,String,String,String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1442124000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user clicks on Register",
+            "match": {
+              "location": "Register.user_clicks_on_Register()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 105209400,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user presented with error validation messege",
+            "match": {
+              "location": "Register.user_presented_with_error_validation_messege()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@f0"
+          },
+          {
+            "name": "@f0n"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "Trying to register",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3831879100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user is on homepage",
+            "match": {
+              "location": "Login.user_is_on_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2006017000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user clicks on sign up link",
+            "match": {
+              "location": "Register.user_clicks_on_sign_up_link()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-06-25T13:21:16.319Z",
+        "before": [
+          {
+            "result": {
+              "duration": 847035400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "UseChromeAutomator.setup()"
+            }
+          }
+        ],
+        "line": 27,
+        "name": "valid user regestration",
+        "description": "",
+        "id": "elearning-registration;valid-user-regestration;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 96889400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "UseChromeAutomator.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 549414000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "user fills unique details \"A7Xn\" \"Learnor\" \"new@xyz.com\" \"A7Xn\" \"pass123\" \"pass123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"A7Xn\"",
+                  "offset": 26
+                },
+                {
+                  "val": "\"Learnor\"",
+                  "offset": 33
+                },
+                {
+                  "val": "\"new@xyz.com\"",
+                  "offset": 43
+                },
+                {
+                  "val": "\"A7Xn\"",
+                  "offset": 57
+                },
+                {
+                  "val": "\"pass123\"",
+                  "offset": 64
+                },
+                {
+                  "val": "\"pass123\"",
+                  "offset": 74
+                }
+              ],
+              "location": "Register.user_fills_unique_details(String,String,String,String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1669756100,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "user clicks on Register",
+            "match": {
+              "location": "Register.user_clicks_on_Register()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 68241200,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "user presented with profile \"A7Xn Learnor\" welcome messege",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"A7Xn Learnor\"",
+                  "offset": 28
+                }
+              ],
+              "location": "Register.user_presented_with_profile_welcome_messege(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@f0"
+          },
+          {
+            "name": "@f0p"
+          }
+        ]
+      }
+    ],
+    "name": "Elearning registration",
+    "description": "  user wants to register their profile on the site",
+    "id": "elearning-registration",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/f0Register.feature",
+    "tags": [
+      {
+        "name": "@f0",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 5,
+        "name": "User is at homepage trying to login",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4050972700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user is on homepage",
+            "match": {
+              "location": "Login.user_is_on_homepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-06-25T13:21:25.389Z",
+        "before": [
+          {
+            "result": {
+              "duration": 842644000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "UseChromeAutomator.setup()"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "user tries invalid login",
+        "description": "",
+        "id": "login;user-tries-invalid-login;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 109690300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "UseChromeAutomator.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 186296800,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user provides invalid credentials \"abcde\" \"pass12\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"abcde\"",
+                  "offset": 34
+                },
+                {
+                  "val": "\"pass12\"",
+                  "offset": 42
+                }
+              ],
+              "location": "Login.user_provides_invalid_credentials(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 998924600,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user clicks on login button",
+            "match": {
+              "location": "Login.user_clicks_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 24700900,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "validation messege appears",
+            "match": {
+              "location": "Login.validation_messege_appears()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@f1"
+          },
+          {
+            "name": "@f1n"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "User is at homepage trying to login",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 5840758400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user is on homepage",
+            "match": {
+              "location": "Login.user_is_on_homepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-06-25T13:21:31.603Z",
+        "before": [
+          {
+            "result": {
+              "duration": 821041000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "UseChromeAutomator.setup()"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "user tries invalid login",
+        "description": "",
+        "id": "login;user-tries-invalid-login;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 85593200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "UseChromeAutomator.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 161350200,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user provides invalid credentials \"abcfe\" \"pass123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"abcfe\"",
+                  "offset": 34
+                },
+                {
+                  "val": "\"pass123\"",
+                  "offset": 42
+                }
+              ],
+              "location": "Login.user_provides_invalid_credentials(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1140895800,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user clicks on login button",
+            "match": {
+              "location": "Login.user_clicks_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 33276700,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "validation messege appears",
+            "match": {
+              "location": "Login.validation_messege_appears()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@f1"
+          },
+          {
+            "name": "@f1n"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "User is at homepage trying to login",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 7249726300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user is on homepage",
+            "match": {
+              "location": "Login.user_is_on_homepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-06-25T13:21:39.687Z",
+        "before": [
+          {
+            "result": {
+              "duration": 819738300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "UseChromeAutomator.setup()"
+            }
+          }
+        ],
+        "line": 18,
+        "name": "user tries invalid login",
+        "description": "",
+        "id": "login;user-tries-invalid-login;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 74935000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "UseChromeAutomator.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 159893000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user provides invalid credentials \"abs\" \"a123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"abs\"",
+                  "offset": 34
+                },
+                {
+                  "val": "\"a123\"",
+                  "offset": 40
+                }
+              ],
+              "location": "Login.user_provides_invalid_credentials(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1629886800,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user clicks on login button",
+            "match": {
+              "location": "Login.user_clicks_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 23860900,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "validation messege appears",
+            "match": {
+              "location": "Login.validation_messege_appears()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@f1"
+          },
+          {
+            "name": "@f1n"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "User is at homepage trying to login",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3306432700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user is on homepage",
+            "match": {
+              "location": "Login.user_is_on_homepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-06-25T13:21:49.645Z",
+        "before": [
+          {
+            "result": {
+              "duration": 825783800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "UseChromeAutomator.setup()"
+            }
+          }
+        ],
+        "line": 28,
+        "name": "user tries valid login",
+        "description": "",
+        "id": "login;user-tries-valid-login;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 97838000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "UseChromeAutomator.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 151482800,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "user provides valid credentials \"new4\" \"pass123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"new4\"",
+                  "offset": 32
+                },
+                {
+                  "val": "\"pass123\"",
+                  "offset": 39
+                }
+              ],
+              "location": "Login.user_provides_valid_credentials(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4146374800,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "user clicks on login button",
+            "match": {
+              "location": "Login.user_clicks_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 57859600,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "user navigates to profile \"New Learner4\" homepage",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"New Learner4\"",
+                  "offset": 26
+                }
+              ],
+              "location": "Login.user_navigates_to_profile_homepage(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@f1"
+          },
+          {
+            "name": "@f1p"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "User is at homepage trying to login",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 6840595100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user is on homepage",
+            "match": {
+              "location": "Login.user_is_on_homepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-06-25T13:21:58.232Z",
+        "before": [
+          {
+            "result": {
+              "duration": 838240900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "UseChromeAutomator.setup()"
+            }
+          }
+        ],
+        "line": 29,
+        "name": "user tries valid login",
+        "description": "",
+        "id": "login;user-tries-valid-login;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 117354000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "UseChromeAutomator.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 193135000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "user provides valid credentials \"dbly96\" \"pass123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"dbly96\"",
+                  "offset": 32
+                },
+                {
+                  "val": "\"pass123\"",
+                  "offset": 41
+                }
+              ],
+              "location": "Login.user_provides_valid_credentials(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4420898400,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "user clicks on login button",
+            "match": {
+              "location": "Login.user_clicks_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 52562400,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "user navigates to profile \"Debalaya Bodhak\" homepage",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Debalaya Bodhak\"",
+                  "offset": 26
+                }
+              ],
+              "location": "Login.user_navigates_to_profile_homepage(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@f1"
+          },
+          {
+            "name": "@f1p"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "User is at homepage trying to login",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 6161301000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user is on homepage",
+            "match": {
+              "location": "Login.user_is_on_homepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-06-25T13:22:10.696Z",
+        "before": [
+          {
+            "result": {
+              "duration": 786649900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "UseChromeAutomator.setup()"
+            }
+          }
+        ],
+        "line": 30,
+        "name": "user tries valid login",
+        "description": "",
+        "id": "login;user-tries-valid-login;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 101592000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "UseChromeAutomator.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 169399200,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "user provides valid credentials \"neo\" \"pass123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"neo\"",
+                  "offset": 32
+                },
+                {
+                  "val": "\"pass123\"",
+                  "offset": 38
+                }
+              ],
+              "location": "Login.user_provides_valid_credentials(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3776071400,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "user clicks on login button",
+            "match": {
+              "location": "Login.user_clicks_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 56374000,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "user navigates to profile \"Neo Learner\" homepage",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Neo Learner\"",
+                  "offset": 26
+                }
+              ],
+              "location": "Login.user_navigates_to_profile_homepage(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@f1"
+          },
+          {
+            "name": "@f1p"
+          }
+        ]
+      }
+    ],
+    "name": "Login",
+    "description": "  user wants to login",
+    "id": "login",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/f1Login.feature",
+    "tags": [
+      {
+        "name": "@f1",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 5,
+        "name": "user logs in to their profile",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 13403020700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user is at profile page",
+            "match": {
+              "location": "ComposeMail.user_is_at_profile_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-06-25T13:22:21.749Z",
+        "before": [
+          {
+            "result": {
+              "duration": 878452000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "UseChromeAutomator.setup()"
+            }
+          }
+        ],
+        "line": 20,
+        "name": "verify blank mail can be sent",
+        "description": "",
+        "id": "compose-mail;verify-blank-mail-can-be-sent;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 98235300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "UseChromeAutomator.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 97371000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user clicks on profile menu",
+            "match": {
+              "location": "ComposeMail.user_clicks_on_profile_menu()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4105024600,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user clicks on inbox option",
+            "match": {
+              "location": "ComposeMail.user_clicks_on_inbox_option()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3343903700,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user clicks on compose icon",
+            "match": {
+              "location": "ComposeMail.user_clicks_on_compose_icon()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 705029500,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user inputs initials \"amit\" and selects recipient \"amit luthra\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"amit\"",
+                  "offset": 21
+                },
+                {
+                  "val": "\"amit luthra\"",
+                  "offset": 50
+                }
+              ],
+              "location": "ComposeMail.user_inputs_initials_and_selects_recipient(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 102828900,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user inputs subject \"Test mail new test\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Test mail new test\"",
+                  "offset": 20
+                }
+              ],
+              "location": "ComposeMail.user_inputs_subject(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2168264300,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user clicks on send mail",
+            "match": {
+              "location": "ComposeMail.user_clicks_on_send_mail()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 42496000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "mail sent successfully",
+            "match": {
+              "location": "ComposeMail.mail_sent_successfully()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@f2"
+          },
+          {
+            "name": "@f2p"
+          },
+          {
+            "name": "@f2pblank"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "user logs in to their profile",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 12486490900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user is at profile page",
+            "match": {
+              "location": "ComposeMail.user_is_at_profile_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-06-25T13:22:46.695Z",
+        "before": [
+          {
+            "result": {
+              "duration": 845505300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "UseChromeAutomator.setup()"
+            }
+          }
+        ],
+        "line": 21,
+        "name": "verify blank mail can be sent",
+        "description": "",
+        "id": "compose-mail;verify-blank-mail-can-be-sent;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 139271100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "UseChromeAutomator.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 99608900,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user clicks on profile menu",
+            "match": {
+              "location": "ComposeMail.user_clicks_on_profile_menu()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3025825200,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user clicks on inbox option",
+            "match": {
+              "location": "ComposeMail.user_clicks_on_inbox_option()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2146465500,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user clicks on compose icon",
+            "match": {
+              "location": "ComposeMail.user_clicks_on_compose_icon()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 937876200,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user inputs initials \"ami\" and selects recipient \"amit xyz\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"ami\"",
+                  "offset": 21
+                },
+                {
+                  "val": "\"amit xyz\"",
+                  "offset": 49
+                }
+              ],
+              "location": "ComposeMail.user_inputs_initials_and_selects_recipient(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 134830000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user inputs subject \"Test mail new test\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Test mail new test\"",
+                  "offset": 20
+                }
+              ],
+              "location": "ComposeMail.user_inputs_subject(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2318853400,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user clicks on send mail",
+            "match": {
+              "location": "ComposeMail.user_clicks_on_send_mail()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 56050200,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "mail sent successfully",
+            "match": {
+              "location": "ComposeMail.mail_sent_successfully()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@f2"
+          },
+          {
+            "name": "@f2p"
+          },
+          {
+            "name": "@f2pblank"
+          }
+        ]
+      }
+    ],
+    "name": "Compose mail",
+    "description": "  user wants to send email",
+    "id": "compose-mail",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/f2ComposeMail.feature",
+    "tags": [
+      {
+        "name": "@f2",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
